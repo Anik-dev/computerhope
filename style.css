@@ -101,3 +101,20 @@ main {
     padding: 8px 9.6px;
     border: none;
 }
+.extra {
+    width: 70%;
+    margin: auto;
+    padding-top: 50px;
+}
+.extra p {
+
+}
+.extra p i {
+    padding: 0px 3px;
+    font-size: 14px;
+}
+.extra p a {
+    color: #2c87f0;
+    font-size: 14.5px;
+    text-decoration: none;
+}
