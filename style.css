@@ -17,7 +17,7 @@ body {
 #header ul {
     display: flex;
     justify-content: space-between;
-    padding: 5px 75px;
+    padding: 5px 45px 0px;
 }
 #header ul li {
     list-style: none;
@@ -26,31 +26,78 @@ body {
     display: inline;
 }
 #nav-warper ul li input {
-    margin-left: 134px;
-    font-size: 18px;
-    width: 50%;
+    margin-left: 200px;
+    font-size: 16px;
+    width: 45%;
     padding: 8px 0px;
     border: 1px solid #2c87f0;
     border-radius: 0px;
 }
 #nav-warper ul li button {
     background-color: #2c87f0;
-    padding: 9px 9px;
+    padding: 8px 9px;
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
-    border: none;
+    border: 1px solid #2c87f0;
     border-radius: 0px;
+}
+#nav-warper ul li button:hover,
+#nav-warper ul li input:hover {
+    border: 1px solid black;
 }
 #navbar ul {
     display: flex;
-    margin-right: 0px;
+    float: right;
+    justify-content: space-between;
 }
 #navbar ul li {
-    padding: 20px 20px 0px 0px;
+    padding: 0px 0px 0px 20px;
 }
 #navbar ul li a {
     text-decoration: none;
     color: #2c87f0;
     font-size: 18px;
+}
+#navbar ul li a:hover {
+    color: black;
+}
+
+main {
+    
+}
+#adwarper {
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #FAFAFA;
+}
+#ad {
+    text-align: center;
+    align-items: center;
+    padding-bottom: 230px;
+    padding-top: 5px;
+}
+#ad p {
+    font-size: 20px;
+    color: #B2B2B2;
+    padding-bottom: 3px;
+}
+#ad span {
+    font-size: 22px;
+    font-weight: 500;
+    color: #B2B2B2;
+}
+.stop {
+    background-color: #2c87f0;
+    color: white;
+}
+.why {
+    color: #B2B2B2;
+    background-color: #fff;
+}
+.why,.stop {
+    font-size: 16px;
+    padding: 8px 9.6px;
+    border: none;
 }
