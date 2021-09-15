@@ -126,6 +126,14 @@ body {
 
 #content {
     width: 75%;
-    /* margin: auto; */
     margin-left: 200px;
+    padding-top: 25px;
+}
+#content h1 {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+}
+#content p {
+    font-size: 17.6px;
 }
