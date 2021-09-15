@@ -63,7 +63,10 @@ body {
     color: black;
 }
 
-main {
+/* end of nav section */
+/* start of body section */
+
+#advertise {
     
 }
 #adwarper {
@@ -117,4 +120,12 @@ main {
     color: #2c87f0;
     font-size: 14.5px;
     text-decoration: none;
+}
+
+/* End of advertise section */
+
+#content {
+    width: 75%;
+    /* margin: auto; */
+    margin-left: 200px;
 }
